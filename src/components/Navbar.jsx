@@ -17,9 +17,9 @@ const Navbar = () => {
                 JEFF COHN
             </div>
             <div className={`hidden md:flex items-center gap-8 text-sm font-medium transition-colors duration-500 ${scrolled ? 'text-text-dark' : 'text-background/80'}`}>
-                <a href="#about" className="interactive-link hover:text-accent transition-colors">About</a>
-                <a href="#ecosystem" className="interactive-link hover:text-accent transition-colors">Ecosystem</a>
-                <a href="#podcast" className="interactive-link hover:text-accent transition-colors">Podcast</a>
+                <a href="#features" className="interactive-link hover:text-accent transition-colors">About</a>
+                <a href="#philosophy" className="interactive-link hover:text-accent transition-colors">Ecosystem</a>
+                <a href="https://podcasts.apple.com/us/podcast/team-building-podcast/id1136877230" target="_blank" rel="noopener noreferrer" className="interactive-link hover:text-accent transition-colors">Podcast</a>
                 <a href="#contact" className="interactive-link hover:text-accent transition-colors">Contact</a>
             </div>
             <a

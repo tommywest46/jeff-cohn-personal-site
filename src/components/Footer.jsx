@@ -19,9 +19,9 @@ const Footer = () => {
                 {/* Column 2 */}
                 <div className="flex flex-col gap-4">
                     <div className="font-data text-xs text-accent uppercase tracking-widest mb-2">Navigation</div>
-                    <a href="#about" className="text-sm text-background/70 hover:text-accent transition-colors w-fit interactive-link">About</a>
-                    <a href="#ecosystem" className="text-sm text-background/70 hover:text-accent transition-colors w-fit interactive-link">Ecosystem</a>
-                    <a href="#podcast" className="text-sm text-background/70 hover:text-accent transition-colors w-fit interactive-link">Podcast</a>
+                    <a href="#features" className="text-sm text-background/70 hover:text-accent transition-colors w-fit interactive-link">About</a>
+                    <a href="#philosophy" className="text-sm text-background/70 hover:text-accent transition-colors w-fit interactive-link">Ecosystem</a>
+                    <a href="https://podcasts.apple.com/us/podcast/team-building-podcast/id1136877230" target="_blank" rel="noopener noreferrer" className="text-sm text-background/70 hover:text-accent transition-colors w-fit interactive-link">Podcast</a>
                     <a href="#philosophy" className="text-sm text-background/70 hover:text-accent transition-colors w-fit interactive-link">Philosophy</a>
                     <a href="#contact" className="text-sm text-background/70 hover:text-accent transition-colors w-fit interactive-link">Connect</a>
                 </div>
